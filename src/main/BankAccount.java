@@ -104,7 +104,11 @@ public class BankAccount {
         System.out.println("CALL getAccountSummary");
         System.out.println("CALL getAccountSummary");
         System.out.println("CALL getAccountSummary");
-        getAccountNumber();
+        something();
         return "Account " + accountNr + " has a balance of " + balance;
+    }
+
+    public void something() {
+        System.out.println("Hello world");
     }
 }
